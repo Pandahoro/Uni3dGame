@@ -165,7 +165,7 @@ DPhoenix::CharacterClass::CharacterClass(const CharacterClass & character)
 	//models should go here when determined
 
 	//TEMP MODELS TO BEGIN WITH --------------------------------------
-	mModelInstance = character.mModelInstance;
+	mModelInstance = new DPhoenix::SkinnedModelInstance(*character.mModelInstance);
 
 	mLifeState = character.mLifeState;
 	mTurnState = character.mTurnState;
@@ -366,5 +366,7 @@ int DPhoenix::CharacterClass::WeaponAttack(CharacterClass*_target, int _modifier
 void DPhoenix::CharacterClass::Update(float dt)
 {
 	//lots of logic to go here!
+	mModelInstance->Update(dt, true);
+
 }
 

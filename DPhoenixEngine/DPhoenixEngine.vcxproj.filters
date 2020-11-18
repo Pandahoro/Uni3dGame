@@ -117,6 +117,12 @@
     <ClInclude Include="BTLTConst.h">
       <Filter>Header Files\BTLT Headers</Filter>
     </ClInclude>
+    <ClInclude Include="BTLTMap.h">
+      <Filter>Header Files\BTLT Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MapBlock.h">
+      <Filter>Header Files\BTLT Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameTimer.cpp">
@@ -267,6 +273,15 @@
       <Filter>Source Files\Demos\BTLT Demos</Filter>
     </ClCompile>
     <ClCompile Include="BTLT1Stats.cpp">
+      <Filter>Source Files\Demos\BTLT Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="BTLTMap.cpp">
+      <Filter>Source Files\BTLT Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBlock.cpp">
+      <Filter>Source Files\BTLT Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BTLT2Map.cpp">
       <Filter>Source Files\Demos\BTLT Demos</Filter>
     </ClCompile>
   </ItemGroup>

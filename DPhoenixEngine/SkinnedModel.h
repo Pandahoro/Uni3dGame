@@ -231,6 +231,8 @@ namespace DPhoenix
 		//get bone transforms for skeleton
 		std::vector<XMFLOAT4X4> GetBoneTransforms();
 
+		//rotation Y offset
+		float mRotYOffset;
 	};
 }
 

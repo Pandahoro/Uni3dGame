@@ -153,6 +153,7 @@
     <ClInclude Include="BasicModel.h" />
     <ClInclude Include="BillboardSprite.h" />
     <ClInclude Include="BTLTConst.h" />
+    <ClInclude Include="BTLTMap.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="CharacterClass.h" />
     <ClInclude Include="D3DUtil.h" />
@@ -167,6 +168,7 @@
     <ClInclude Include="Input.h" />
     <ClInclude Include="LightHelper.h" />
     <ClInclude Include="Logfile.h" />
+    <ClInclude Include="MapBlock.h" />
     <ClInclude Include="MeshGeometry.h" />
     <ClInclude Include="ParticleEmitter.h" />
     <ClInclude Include="PrimitiveInstance.h" />
@@ -189,6 +191,8 @@
     <ClCompile Include="BillboardSprite.cpp" />
     <ClCompile Include="BillboardSpriteDemo.cpp" />
     <ClCompile Include="BTLT1Stats.cpp" />
+    <ClCompile Include="BTLT2Map.cpp" />
+    <ClCompile Include="BTLTMap.cpp" />
     <ClCompile Include="BTLTTemplate.cpp" />
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="CameraDemo.cpp" />
@@ -210,6 +214,7 @@
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="InputAndEventsDemo.cpp" />
     <ClCompile Include="Logfile.cpp" />
+    <ClCompile Include="MapBlock.cpp" />
     <ClCompile Include="MeshGeometry.cpp" />
     <ClCompile Include="NormalMapDemo.cpp" />
     <ClCompile Include="ParticleDemo.cpp" />

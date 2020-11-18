@@ -983,6 +983,7 @@ DPhoenix::SkinnedModelInstance::SkinnedModelInstance(std::string clipName,
 	mForwardVector.x = 0.0f; mForwardVector.y = 0.0f; mForwardVector.z = 1.0f;
 	mRightVector.x = 1.0f; mRightVector.y = 0.0f; mRightVector.z = 0.0f;
 
+	mRotYOffset = 0.0f;
 }
 
 //update animation and movement
@@ -1029,6 +1030,7 @@ void DPhoenix::SkinnedModelInstance::Update(float deltaTime, bool moveRelative) 
 		mPosition.z += mVelocity.z * deltaTime;
 	}
 
+	SetFacingRotation(mRotYOffset);
 }
 
 //get the final transforms for the model / shader to render
